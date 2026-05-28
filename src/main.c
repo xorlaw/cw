@@ -1,4 +1,4 @@
-#include "wc.h"
+#include "cw.h"
 #include <unistd.h>
 
 static int count_width(uintmax_t n) {
