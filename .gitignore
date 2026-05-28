@@ -1,2 +1,5 @@
 *.o
+main.o
+count.o
+print.o
 cw
