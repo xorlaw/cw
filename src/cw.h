@@ -1,3 +1,4 @@
+#define _POSIX_C_SOURCE 200809L
 #ifndef WC_H
 #define WC_H
 

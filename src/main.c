@@ -29,7 +29,7 @@ int main(int argc, char **argv) {
 		        case 'm' : fl.chars	= true; fl.bytes = false; break;
 			case 'L' : fl.max_line 	= true; break;
 			default:
-				   fprintf(stderr, "usage: wc [-lwcmL] [file]\n");
+				   fprintf(stderr, "usage: cw [-lwcmL] [file]\n");
 				   return 1;
 		}
 	}
