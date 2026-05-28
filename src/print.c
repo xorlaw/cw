@@ -10,7 +10,7 @@ void print_counts(const Counts *c, const Flags *fl, int width, const char *Label
 	if (fl->chars 	&& !def) printf("%*ju ", width, c->chars);
 	if (fl->max_line)	 printf("%*ju ", width, c->max_line);
 
-	if (label) printf("%s", label);
+	if (Label) printf("%s", label);
 	putchar('\n');
 }
 
