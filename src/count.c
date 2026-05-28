@@ -10,10 +10,10 @@ void count_stream(FILE *f, Counts *c) {
 	int mb_len = 0;
 
 	while ((ch = getc_unlocked(f)) != EOF) {
-			c->bytes++
+			c->bytes++;
 
 			mb_buf[mb_len++] = (char)ch;
-			wchart wc;
+			wchar_t wc;
 			int r = mbtowc(&wc, mb_buf, mb_len);
 			if (r == -1) {
 				if (mb_len < MB_LEN_MAX) continue;
