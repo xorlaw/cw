@@ -10,6 +10,7 @@
 #include <locale.h>
 #include <wchar.h>
 #include <errno.h>
+#include <limits.h>
 
 typedef struct {
 	uintmax_t lines;
