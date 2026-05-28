@@ -3,7 +3,7 @@
 
 static int count_width(uintmax_t n) {
 	int w = 1;
-	while (n >= 10) { n /= 10; w++ }
+	while (n >= 10) { n /= 10; w++; }
 	return w;
 }
 
