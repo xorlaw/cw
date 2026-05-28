@@ -1,4 +1,4 @@
-#include "wc.h"
+#include "cw.h"
 
 void print_counts(const Counts *c, const Flags *fl, int width, const char *Label) {
 	bool any = fl->lines || fl->words || fl->bytes || fl->chars || fl->max_line;

@@ -1,4 +1,4 @@
-#include "wc.h"
+#include "cw.h"
 
 void count_stream(FILE *f, Counts *c) {
 	memset(c, 0, sizeof(*c));
